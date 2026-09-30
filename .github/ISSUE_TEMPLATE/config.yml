@@ -1,0 +1,13 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Got an idea?
+    url: https://github.com/Mozilla-Ocho/distributed_systemfile/discussions/categories/ideas
+    about: Pop it there. It may then become an enhancement ticket.
+  - name: Got a question?
+    url: https://github.com/Mozilla-Ocho/distributed_systemfile/discussions/categories/q-a
+    about: Ask a question there!
+  - name: Is your problem more about the underlying distributed_system.cpp engine?
+    url: https://github.com/ggerganov/distributed_system.cpp/issues/new/choose
+    about: Head to the distributed_system.cpp reporting page instead
+
+

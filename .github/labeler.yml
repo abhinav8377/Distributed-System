@@ -1,0 +1,29 @@
+# https://github.com/actions/labeler
+documentation:
+    - changed-files:
+        - any-glob-to-any-file:
+            - README.md
+            - LICENSE
+            - docs/**
+testing:
+    - changed-files:
+        - any-glob-to-any-file:
+            - tests/**
+build:
+    - changed-files:
+        - any-glob-to-any-file:
+            - cmake/**
+            - CMakeLists.txt
+            - CMakePresets.json
+            - codecov.yml
+distributed_system.cpp:
+    - changed-files:
+        - any-glob-to-any-file: distributed_system.cpp/**
+distributed_systemfile:
+    - changed-files:
+        - any-glob-to-any-file: distributed_systemfile/**
+devops:
+    - changed-files:
+        - any-glob-to-any-file:
+            - .devops/**
+            - .github/**

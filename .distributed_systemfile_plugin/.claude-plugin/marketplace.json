@@ -1,0 +1,20 @@
+{
+  "name": "distributed_systemfile-local",
+  "description": "Local distributed_systemfile plugin marketplace",
+  "owner": {
+    "name": "Mozilla AI",
+    "email": "davide@mozilla.ai"
+  },
+  "plugins": [
+    {
+      "name": "distributed_systemfile",
+      "description": "Build guidance and commands for the distributed_systemfile project",
+      "version": "0.1.7",
+      "author": {
+        "name": "Mozilla AI",
+        "email": "davide@mozilla.ai"
+      },
+      "source": "./"
+    }
+  ]
+}
