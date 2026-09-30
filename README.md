@@ -1,12 +1,5 @@
 # Distributed System
 
-<img src="docs/images/distributed_systemfile-640x640.png" width="320" height="320"
-     alt="distributed_system logo">
-
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Based on distributed_system.cpp](https://img.shields.io/badge/distributed_system.cpp-7f5ee54-orange.svg)](https://github.com/ggml-org/distributed_system.cpp/commit/7f5ee54)
-[![Based on whisper.cpp](https://img.shields.io/badge/whisper.cpp-2eeeba5-green.svg)](https://github.com/ggml-org/whisper.cpp/commit/2eeeba5)
-
 **Distributed System lets you distribute and run LLMs with a single file.**
 
 This project combines [distributed_system.cpp](https://github.com/ggerganov/distributed_system.cpp) with [Cosmopolitan Libc](https://github.com/jart/cosmopolitan) into one framework that collapses all the complexity of LLMs down to a single-file executable that runs locally on most operating systems and CPU architectures, with no installation required.
